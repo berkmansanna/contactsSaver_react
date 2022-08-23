@@ -18,13 +18,13 @@ export const ContactForm = () => {
     const newContact = { name, number };
 
     if (contacts.find(c => c.name === name)) {
-      alert('You saved this contact!');
+      alert('You seved this contact!');
       form.reset();
+
       return;
     }
 
     createContact(newContact);
-
     form.reset();
   };
 
@@ -33,7 +33,11 @@ export const ContactForm = () => {
       <Box
         component="form"
         sx={{
-          '& > :not(style)': { m: 8, width: '25ch' },
+          '& > :not(style)': {
+            display: 'flex',
+            m: 10,
+            width: '25ch',
+          },
         }}
         noValidate
         autoComplete="off"
@@ -53,8 +57,13 @@ export const ContactForm = () => {
           variant="standard"
           type="tel"
           name="number"
-          pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
-          title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
+          placeholder="+38(0XX)XXX-XX-XX"
+          pattern={{
+            value:
+              /\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}/,
+            message:
+              'This must be digits and may contain spaces, dashes, parentheses or start with +.',
+          }}
           required
         />
         <Button variant="outlined" type="submit">

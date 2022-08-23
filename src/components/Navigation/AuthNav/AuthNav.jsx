@@ -1,16 +1,15 @@
 import { NavLink } from 'react-router-dom';
+import { Typography } from '@mui/material';
 
 const AuthNav = () => {
   return (
     <>
-      <ul>
-        <li>
-          <NavLink to="/register">Register</NavLink>
-        </li>
-        <li>
-          <NavLink to="/login">Login</NavLink>
-        </li>
-      </ul>
+      <NavLink to="/register">
+        <Typography sx={{ p: 2, display: 'block' }}>Register</Typography>
+      </NavLink>
+      <NavLink to="/login">
+        <Typography sx={{ p: 2, display: 'block' }}>Login</Typography>
+      </NavLink>
     </>
   );
 };

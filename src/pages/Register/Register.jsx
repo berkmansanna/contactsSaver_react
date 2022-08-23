@@ -29,12 +29,25 @@ const Register = () => {
         autoComplete="off"
         onSubmit={handelSubmit}
       >
-        <TextField label="Name" variant="standard" type="text" name="name" />
-        <TextField label="Email" variant="standard" type="email" name="email" />
         <TextField
-          label="Password"
+          required
+          label="Name"
           variant="standard"
           type="text"
+          name="name"
+        />
+        <TextField
+          required
+          label="Email"
+          variant="standard"
+          type="email"
+          name="email"
+        />
+        <TextField
+          required
+          label="Password"
+          variant="standard"
+          type="password"
           name="password"
         />
         <Button variant="outlined" type="submit">

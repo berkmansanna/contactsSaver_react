@@ -28,12 +28,20 @@ const Login = () => {
         autoComplete="off"
         onSubmit={handelSubmit}
       >
-        <TextField label="Email" variant="standard" type="email" name="email" />
+        <TextField
+          required
+          label="Email"
+          variant="standard"
+          type="email"
+          name="email"
+        />
         <TextField
           label="Password"
           variant="standard"
-          type="text"
+          type="password"
           name="password"
+          required
+          minLength="6"
         />
         <Button variant="outlined" type="submit">
           Enter

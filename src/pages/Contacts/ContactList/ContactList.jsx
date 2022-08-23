@@ -16,7 +16,7 @@ export const ContactList = () => {
 
   return (
     <Container>
-      <Grid container spacing={4}>
+      <Grid container spacing={8}>
         {isFetching && <Loader />}
         {contacts &&
           filtredContacts.map(({ id, name, number }) => (

@@ -8,7 +8,6 @@ import { getToken } from 'redux/auth/auth-selector';
 import { PrivateRoute } from 'routes/PrivateRoute';
 import { PublicRoute } from 'routes/PublicRoute';
 
-const Home = lazy(() => import('../pages/Home/Home'));
 const Register = lazy(() => import('../pages/Register/Register'));
 const Login = lazy(() => import('../pages/Login/Login'));
 const Contacts = lazy(() => import('../pages/Contacts/Contacts'));
@@ -22,7 +21,6 @@ export const App = () => {
   return isRefreshing ? null : (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
         <Route path="/register" element={<PublicRoute redirectTo="/" />}>
           <Route path="/register" element={<Register />} />
         </Route>
