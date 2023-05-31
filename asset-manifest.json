@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook/static/css/main.9583f3ce.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.6866e99b.js",
-    "static/js/643.9db057ee.chunk.js": "/goit-react-hw-08-phonebook/static/js/643.9db057ee.chunk.js",
-    "static/js/427.e4798c48.chunk.js": "/goit-react-hw-08-phonebook/static/js/427.e4798c48.chunk.js",
-    "static/js/228.07fcd565.chunk.js": "/goit-react-hw-08-phonebook/static/js/228.07fcd565.chunk.js",
-    "static/js/331.545ac637.chunk.js": "/goit-react-hw-08-phonebook/static/js/331.545ac637.chunk.js",
-    "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "main.9583f3ce.css.map": "/goit-react-hw-08-phonebook/static/css/main.9583f3ce.css.map",
-    "main.6866e99b.js.map": "/goit-react-hw-08-phonebook/static/js/main.6866e99b.js.map",
-    "643.9db057ee.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/643.9db057ee.chunk.js.map",
-    "427.e4798c48.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/427.e4798c48.chunk.js.map",
-    "228.07fcd565.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/228.07fcd565.chunk.js.map",
-    "331.545ac637.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/331.545ac637.chunk.js.map"
+    "main.css": "/contactsSaver_react/static/css/main.9583f3ce.css",
+    "main.js": "/contactsSaver_react/static/js/main.3b56a808.js",
+    "static/js/643.100d10d8.chunk.js": "/contactsSaver_react/static/js/643.100d10d8.chunk.js",
+    "static/js/427.aa1189d3.chunk.js": "/contactsSaver_react/static/js/427.aa1189d3.chunk.js",
+    "static/js/228.b1e99931.chunk.js": "/contactsSaver_react/static/js/228.b1e99931.chunk.js",
+    "static/js/331.e3f06634.chunk.js": "/contactsSaver_react/static/js/331.e3f06634.chunk.js",
+    "index.html": "/contactsSaver_react/index.html",
+    "main.9583f3ce.css.map": "/contactsSaver_react/static/css/main.9583f3ce.css.map",
+    "main.3b56a808.js.map": "/contactsSaver_react/static/js/main.3b56a808.js.map",
+    "643.100d10d8.chunk.js.map": "/contactsSaver_react/static/js/643.100d10d8.chunk.js.map",
+    "427.aa1189d3.chunk.js.map": "/contactsSaver_react/static/js/427.aa1189d3.chunk.js.map",
+    "228.b1e99931.chunk.js.map": "/contactsSaver_react/static/js/228.b1e99931.chunk.js.map",
+    "331.e3f06634.chunk.js.map": "/contactsSaver_react/static/js/331.e3f06634.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9583f3ce.css",
-    "static/js/main.6866e99b.js"
+    "static/js/main.3b56a808.js"
   ]
 }
